@@ -8,11 +8,11 @@ namespace Measurement_Convertor_APP
         {
         public static double MetersToFeet(double meters)
         {
-            return meters * 3.281;
+            return meters * 3.2808399;
         }
         public static double KilometersToMiles(double km)
         {
-            return km / 1.609;
+            return km / 1.609344;
         }
         public static double CentimetersToInches(double cm)
         {
@@ -20,11 +20,11 @@ namespace Measurement_Convertor_APP
         }
         public static double FeetToMeters(double feet)
         {
-            return feet / 3.281;
+            return feet / 3.2808399;
         }
         public static double MilesToKilometers(double miles)
         {
-            return miles * 1.609;
+            return miles * 1.609344;
         }
         public static double InchesToCentimeters(double inches)
         {
